@@ -39,3 +39,28 @@ const myFunc = function() {
 console.log(typeof bigNumber);
 console.log(typeof myFunc);
 console.log(typeof heroes);
+
+
+
+
+
+// *****************************************************
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubename = "debayandotcom"
+
+let anothername = myYoutubename
+anothername = "chai"
+
+console.log(anothername);
+
+let userOne = {
+  email:"user@google.com",
+  upi: "user@ybl"
+}
+let userTwo = userOne;
+
+userTwo.email = "dde@";
+console.log(userOne.email);
+console.log(userTwo.email);
