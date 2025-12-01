@@ -41,4 +41,34 @@ function loginUserMessage(username = "deb") {
 }
 
 // console.log(loginUserMessage("deb"))
-console.log(loginUserMessage()) //if nothing is passed then undefined, if "" if passed then blank space
+// console.log(loginUserMessage()) //if nothing is passed then undefined, if "" if passed then blank space
+
+
+function calculateCartPrice(val1,val2, ...num1) { // ...num1 => khule mein mil rha hain, inko bundle karo aur bhej do
+    return num1
+}
+
+console.log(calculateCartPrice(200,400,500, 2000))
+
+const user = {
+  username: "debayan",
+  price: 199
+}
+
+function handleObject(anyObject) {
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+  username: "Sam",
+  price: 399
+})
+
+const myNewArray = [200,400,100,600]
+
+function returnSecondValue(getArray) {
+    return getArray[1]
+}
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([100,99,897]));
