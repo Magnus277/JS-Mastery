@@ -1,7 +1,4 @@
-for (let i = 0; i <= 10; i++) {
-//   const element = i;
-//   if(element == 5) {
-//     console.log("5 is best");
-    
-//   }
-//   console.log(element);
+while (index <= 10) {
+    console.log(`Value of index is ${index}`);
+    index = index + 2
+}
